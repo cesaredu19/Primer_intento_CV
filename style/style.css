@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-primario:#000000;
+    --color-secundario:#F6F6F6;
+    --color-terciario:#22D4FD;
+    --fuente-montserrat:"Montserrat",sans serif;
+    --fuente-krona:"Krona One",sans serif;
+}
+
+
+
+
+*{
+    padding:0;
+    margin:0;
+}
+
+.imagen_Edu{
+    padding:0% 0% 0% 12%;
+    width: 900px;
+    height:900px;
+}
+.imagen_Edu_1{
+    padding:8% 20% 0% 20%;
+    width: 700px;
+    height:700px;
+}
+
+body{
+    background-color:var(--color-primario);
+    color: var(--color-secundario);
+    box-sizing: border-box;
+}
+.header{
+  padding:2% 0% 0% 15%;
+
+}
+.header_menu{
+  display: flex;
+  gap: 80px;
+}
+.header_menu_link{
+    font-family:var(--fuente-montserrat);
+    font-size:24px;
+    font-weight:600;
+    color:var(--color-terciario);
+    text-decoration: none;
+}
+
+
+
+.titulo_destacado{
+    color:#22D4FD;
+}
+
+.presentacion{
+    display:flex;
+    align-items:center;
+    padding: 7% 2%;
+    justify-content:space-between;
+}
+
+.presentacion_contenido{
+    width:615px;
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+.presentacion_contenido_2{
+    width:615px;
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+.imagen_vineta{
+   background-color:transparent;
+   width: 30px;
+   height: 30px;
+   vertical-align: middle;
+   mix-blend-mode:lighten;
+}
+
+.presentacion_contenido_titulo{
+    font-size:36px;
+    font-family: "Krona One", sans-serif;
+}
+.presentacion_contenido_texto{
+    font-size:24px;
+    font-family: "Montserrat", sans-serif;
+}
+.presentacion_contenido_texto_1{
+    width:500px;
+    font-size:20px;
+    font-family: "Montserrat", sans-serif;
+}
+.presentacion_contenido_texto_2{
+    width:700px;
+    font-size:18px;
+    padding: 0% 0% 0% 0%;
+    font-family: "Montserrat", sans-serif;
+    text-align:justify;
+}
+
+.presentacion_contenido_3{
+    width:615px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    padding: 3% 0% 0% 0%;
+}
+.imagen_vineta_1{
+    background-color:transparent;
+    width: 30px;
+    height: 30px;
+    padding: 0% 0% 0% 0%;
+    gap:50px;
+    vertical-align: middle;
+ }
+
+.division_certificado{
+    display:flex;   
+    gap:100px;
+
+}
+.footer_2{
+    background-color:#22D4FD;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    font-family:"Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.presentacion_enlaces{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+    align-items: center;
+    gap:32px;
+}
+.presentacion_enlaces_subtitulos{
+    font-family:'Krona One', sans serif;
+    font-size:24px;
+    font-weight:400px;
+}
+.presentacion_enlaces_link{
+    width:378px;
+    text-align:center;
+    padding:21.5px 0;
+    border-radius:8px;
+    font-family:"Montserrat", sans-serif;
+    font-size:24px;
+    font-weight: 600px;
+    text-decoration: none;
+    color:#f6f6f6;
+    border:2px solid #22D4FD;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.presentacion_contenido_texto_3{
+    width:750px;
+    font-size:16px;
+    padding: 4% 0% 0% 0%;
+    font-family: "Montserrat", sans-serif;
+    text-align:justify;
+    text-decoration:none;
+    color:#1cea2a;
+}
+/*Flexbox es un método de diseño de página para compaginar 
+elementos en filas o columnas (se activa con display:flex)
+*/
+/*Google fonts nos permite encontrar url de fuentes de textos,
+pudiendo aplicarlas a textos */
+/*<h1>,<p>,<a> son etiquetas, en este caso h1 sirve para encabezados*/
+.presentacion_enlaces_link:hover{
+    cursor:pointer;
+    background-color: #272727;
+}
+.header_menu_link:hover{
+    cursor:pointer;
+    background-color: #272727;
+}
+
+.footer{
+    background-color:#22D4FD;
+    padding: 24px;
+    color: black;
+    text-align: center;
+    font-family:"Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/*Con ctrl+F se activa el buscador de palabras */
